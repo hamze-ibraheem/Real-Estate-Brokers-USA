@@ -1,0 +1,6 @@
+{
+  "name": "Real Estate Brokers USA",
+  "description": "Real Estate Brokers USA, Inc. - Your Trusted Partner in Central Florida",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
