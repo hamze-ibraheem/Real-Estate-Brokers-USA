@@ -484,6 +484,17 @@ export default function App() {
       >
         <Phone className="w-6 h-6 fill-white" />
       </a>
+
+      {/* Floating Offer Button */}
+      <a 
+        href="https://auroraadv.co/?tab=wizard"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 left-6 z-50 w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-[#002147] border-4 border-[#D4AF37] shadow-2xl flex flex-col items-center justify-center text-center p-3 hover:scale-105 transition-transform duration-300 group"
+      >
+        <span className="text-white font-bold text-xs sm:text-sm leading-tight group-hover:text-white/90">Get this website<br />for only</span>
+        <span className="text-[#D4AF37] font-black text-lg sm:text-xl mt-1">$999</span>
+      </a>
     </div>
   );
 }
